@@ -1,13 +1,17 @@
 # Which Ticket?
 
-Are you travelling to Berlin and confused regarding what ticket to buy?
+Are you travelling to Berlin and don't know how to roll?
 Your problems are solved.
 
-With Which Ticket? you may answer a series of questions and in the end find out what's the best option to enjoy the German capital with less. Mobile Ready.
+With `Which Ticket?` you just have to answer a few questions tod find out what's the best option to enjoy the capital with less. 
+### #MobileReady.
 
-## `Decision tree`
 
-[Miro board](https://miro.com/app/board/o9J_lGBmTaQ=/)
+## `Assumptions`
+
+[Decision tree](https://miro.com/app/board/o9J_lGBmTaQ=/)
+
+// TODO: There're are still a few filters that don't work, for instance when arriving at BER Airport, the user would need to buy a ABC Ticket. At the moment the app only suggests AB Tickets.
 
 ## To run the app
 

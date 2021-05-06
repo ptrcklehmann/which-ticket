@@ -24,5 +24,3 @@ You will also see any lint errors in the console.
 ## Or simply visit
 
 => [https://which-ticket.netlify.app/](https://which-ticket.netlify.app/)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/787ea68a-9da7-4ae6-af57-cc3bf5ffe589/deploy-status)](https://app.netlify.com/sites/which-ticket/deploys)

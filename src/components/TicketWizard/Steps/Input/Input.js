@@ -1,7 +1,20 @@
 import React from 'react'
+import { makeStyles } from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';
 import './Input.css'
 
-const Input = ({ label, children, type, ...props }) => {
+const useStyles = makeStyles((theme) => ({
+    root: {
+      '& > *': {
+        margin: theme.spacing(1),
+        width: '25ch',
+      },
+    },
+  }));
+
+
+export default function Input ({ label, children, type, ...props }) {
+    const classes = useStyles();
     return (
         <>
             { type === "radio" ?
@@ -12,8 +25,9 @@ const Input = ({ label, children, type, ...props }) => {
                 : type === "text" ?
                     <div className="row">
                         <span>
-                            <input id={label} className="basic-slide" type={type} {...props} required />
-                            <label htmlFor={label}>{label}</label>
+                        
+                            {/* <input  className="basic-slide" type={type} {...props} required />
+                            <label htmlFor={label}>{label}</label> */}
                         </span>
                     </div>
                     : (<div className='input'>
@@ -25,4 +39,3 @@ const Input = ({ label, children, type, ...props }) => {
 
     )
 }
-export default Input

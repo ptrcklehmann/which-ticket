@@ -1,28 +1,75 @@
 header {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 3.5rem;
-    font-weight: 900;
-    background-color: #f0d721;
-    color: #fff;
-    display: block;
-    font-weight: 700;
+header .header-text {
+    font-size: 3rem;
+    line-height: 0.9;
+    color: #000;
+    text-align: left;
+    text-shadow: -2px 1px rgba(0, 0, 0, 0.1);
 }
 
-header h1:nth-child(2) {
+header div {
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: center;
+}
+
+.wrap-logo {
+    position: relative;
+}
+
+.wrap-logo::before, .wrap-logo::after {
+    content: "";
+    width: 100%;
+    height: 100%;
     position: absolute;
-    background-color: #fff;
-    color: #f0d721;
-    clip-path: inset(-1% -1% 50% -1%);
-    font-weight: 700;
+    z-index: -1;
+    border: 2px solid #f0d721;
+    transition: all 0.25s ease-out;
+}
+
+.wrap-logo::before {
+    background-color: #f0d721;
+    top: -5px;
+    left: -5px;
+}
+
+.wrap-logo::after {
+    bottom: -5px;
+    right: -5px;
+}
+
+.wrap-logo:hover::before {
+    top: 5px;
+    left: 5px;
+}
+
+.wrap-logo:hover::after {
+    bottom: 5px;
+    right: 5px;
+}
+
+#logo {
+    margin: 1rem;
+    fill: black;
+    z-index: 1;
+}
+
+#logo:hover {
+
 }
 
 header p {
@@ -42,15 +89,15 @@ header p {
         margin: 0;
         font-size: 2rem;
         font-weight: 900;
-        background-color: #f0d721;
-        color: #fff;
-        display: block;
-        font-weight: 700;
     }
     header p {
         text-align: center;
         font-size: .8rem;
         background-color: #000;
         color: #fff;
+    }
+    #logo {
+        fill: #fff;
+        z-index: 1;
     }
 }

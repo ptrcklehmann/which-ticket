@@ -1,0 +1,53 @@
+.multi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    height: 100%;
+}
+.radio-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+    gap: .5rem;
+
+}
+.step {
+    --background: #ffffff;
+    --text: #414856;
+    --width: 100px;
+    --height: 140px;
+    --border-radius: 10px;
+    --radio: #FBD160;
+    --radio-checked: #FBD160;
+    --radio-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.9rem;
+    padding: 2rem;
+}
+
+.results {
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.step h3 {
+    margin-bottom: 1rem;
+}

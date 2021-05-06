@@ -5,7 +5,7 @@ Your problems are solved.
 
 With Which Ticket? you may answer a series of questions and in the end find out what's the best option to enjoy the German capital with less. Mobile Ready.
 
-## Decision tree
+## `Decision tree`
 
 [Miro board](https://miro.com/app/board/o9J_lGBmTaQ=/)
 
@@ -23,4 +23,6 @@ You will also see any lint errors in the console.
 
 ## Or simply visit
 
-[Which ticket](https://which-ticket.netlify.app/)
+=> [https://which-ticket.netlify.app/](https://which-ticket.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/787ea68a-9da7-4ae6-af57-cc3bf5ffe589/deploy-status)](https://app.netlify.com/sites/which-ticket/deploys)

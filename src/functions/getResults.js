@@ -25,6 +25,10 @@ export function getResults(results) {
             if (Number(travellers) === 5) return { ticket: ticketList.twentyFourGroup, bike: ticketList.bicycle }
             if (Number(amount) > 0) return { ticket: ticketList.cityTourCard.fiveDays, bike: ticketList.bicycle }
             return { ticket: ticketList.cityTourCard.fiveDays }
+            case (6):
+            if (Number(travellers) === 5) return { ticket: ticketList.twentyFourGroup, bike: ticketList.bicycle }
+            if (Number(amount) > 0) return { ticket: ticketList.cityTourCard.sixDays, bike: ticketList.bicycle }
+            return { ticket: ticketList.cityTourCard.sixDays }
         case (7):
             if (Number(travellers) === 5) return { ticket: ticketList.sevenDay, bike: ticketList.bicycle }
             if (Number(amount) > 0) return { ticket: ticketList.sevenDay, bike: ticketList.bicycle }

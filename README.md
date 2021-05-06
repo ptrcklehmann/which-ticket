@@ -11,7 +11,7 @@ With `Which Ticket?` you just have to answer a few questions tod find out what's
 
 [Decision tree](https://miro.com/app/board/o9J_lGBmTaQ=/)
 
-// TODO: There're are still a few filters that don't work, for instance when arriving from BER Airport, the user would need to buy a ABC Ticket. At the moment the app only suggests AB Tickets.
+// TODO: There're are still a few filters that don't work, for instance when arriving at BER Airport, the user would need to buy a ABC Ticket. At the moment the app only suggests AB Tickets.
 
 ## To run the app
 

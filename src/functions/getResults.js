@@ -2,7 +2,6 @@ import { ticketList } from '../data/data'
 
 export function getResults(results) {
     const { days, travellers, bike: { amount } } = results
-    console.log(days, 'results from function')
     switch (Number(days)) {
         case (1):
             if (Number(travellers) === 5) return { ticket: ticketList.twentyFourGroup, bike: ticketList.bicycle }
